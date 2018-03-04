@@ -23,6 +23,6 @@ int main() {
     for(int i=0; i<n; i++)
         str[arr[i]]++;
     for(int i=0; i<q; i++)
-        cout<<str[query[i]]<<endl;
+        cout<<str[ query[i] ]<<endl;
     return 0;
 }
